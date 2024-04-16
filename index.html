@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta id="ascii" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>STL To ASCII Generator</title>
+    <script defer="defer" src="mainscript.js"></script>
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body onload="rotateButtonClicked()"></body>
+      <div>
+        <input id="rotateButton" type="button" value="Rotate"> 
+        <input id="screenshotButton" type="button" value="Screenshot">
+        <script>
+          document.getElementById("screenshotButton").style.display = "none";
+          document.getElementById("rotateButton").style.display = "none";
+          
+          function rotateButtonClicked() {
+            document.getElementById("rotateButton").click();
+          }
+        </script>
+      </div>
+  </body>
+</html>
